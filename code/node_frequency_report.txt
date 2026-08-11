@@ -1,0 +1,80 @@
+======== NODE FREQUENCY ANALYSIS REPORT ========
+
+
+📊 Hallucination Node Frequency Statistics:
+  Count: 2168
+  Mean: 1.14, Median: 1.0, Std: 0.41
+  Min: 1, Max: 4
+
+📊 Non-Hallucination Node Frequency Statistics:
+  Count: 1762
+  Mean: 1.07, Median: 1.0, Std: 0.28
+  Min: 1, Max: 3
+
+📊 Hallucination Nodes in Non-Hallucination Graphs Statistics:
+  Count: 2168
+  Mean: 0.54, Median: 0.0, Std: 0.60
+  Min: 0, Max: 3
+
+📊 Non-Hallucination Nodes in Hallucination Graphs Statistics:
+  Count: 1762
+  Mean: 0.75, Median: 1.0, Std: 0.73
+  Min: 0, Max: 4
+
+📊 Hallucination Node Degree Statistics:
+  Count: 2536
+  Mean: 13.37, Median: 11.0, Std: 7.07
+  Min: 0, Max: 42
+
+📊 Non-Hallucination Node Degree Statistics:
+  Count: 2527
+  Mean: 12.24, Median: 11.0, Std: 7.32
+  Min: 0, Max: 48
+
+🏆 Top 10 Most Frequent Nodes in Hallucination:
+   1. mlp,26,858,mlp_in — appears in 4 circuits
+   2. mlp,7,290,down_proj — appears in 4 circuits
+   3. mlp,32,2041,down_proj — appears in 4 circuits
+   4. mlp,12,12492,mlp_in — appears in 3 circuits
+   5. mlp,14,2940,mlp_in — appears in 3 circuits
+   6. mlp,26,8427,mlp_in — appears in 3 circuits
+   7. mlp,25,290,down_proj — appears in 3 circuits
+   8. mlp,25,8741,mlp_in — appears in 3 circuits
+   9. mlp,22,11986,mlp_in — appears in 3 circuits
+  10. mlp,20,8654,mlp_in — appears in 3 circuits
+
+🏆 Top 10 Most Frequent Nodes in Non-Hallucination:
+   1. mlp,22,8599,mlp_in — appears in 3 circuits
+   2. mlp,26,2352,down_proj — appears in 3 circuits
+   3. mlp,23,2265,down_proj — appears in 3 circuits
+   4. mlp,3,138,mlp_in — appears in 3 circuits
+   5. mlp,14,8131,mlp_in — appears in 3 circuits
+   6. self_attn,1,709,o_proj — appears in 3 circuits
+   7. self_attn,1,18,attn_head — appears in 3 circuits
+   8. self_attn,1,23,attn_head — appears in 3 circuits
+   9. self_attn,1,21,attn_head — appears in 3 circuits
+  10. self_attn,1,20,attn_head — appears in 3 circuits
+
+🏆 Top 10 Most Frequent Nodes in Hallucination Nodes in Non-Hallucination Graphs:
+   1. self_attn,1,23,attn_head — appears in 3 circuits
+   2. self_attn,1,709,o_proj — appears in 3 circuits
+   3. mlp,3,138,mlp_in — appears in 3 circuits
+   4. self_attn,1,18,attn_head — appears in 3 circuits
+   5. self_attn,1,19,attn_head — appears in 3 circuits
+   6. self_attn,1,21,attn_head — appears in 3 circuits
+   7. mlp,14,8131,mlp_in — appears in 3 circuits
+   8. mlp,23,2265,down_proj — appears in 3 circuits
+   9. mlp,22,8599,mlp_in — appears in 3 circuits
+  10. self_attn,1,20,attn_head — appears in 3 circuits
+
+🏆 Top 10 Most Frequent Nodes in Non-Hallucination Nodes in Hallucination Graphs:
+   1. mlp,32,2041,down_proj — appears in 4 circuits
+   2. mlp,7,290,down_proj — appears in 4 circuits
+   3. mlp,26,858,mlp_in — appears in 4 circuits
+   4. mlp,28,8140,mlp_in — appears in 3 circuits
+   5. mlp,25,8741,mlp_in — appears in 3 circuits
+   6. mlp,22,11296,mlp_in — appears in 3 circuits
+   7. mlp,17,9435,mlp_in — appears in 3 circuits
+   8. mlp,32,3139,down_proj — appears in 3 circuits
+   9. mlp,25,290,down_proj — appears in 3 circuits
+  10. self_attn,1,23,attn_head — appears in 3 circuits
